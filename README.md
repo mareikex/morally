@@ -1,2 +1,7 @@
 # morally
- Mareike Kluth, 204659
+
+Contributors:
+
+Gerlyn Bongers
+Mohammad Mustafa Zaki - 204621
+Mareike Kluth - 204659
