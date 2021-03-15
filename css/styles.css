@@ -1,0 +1,105 @@
+/* own css */
+* {
+margin: 0;
+padding: 0;
+font-family: 'Raleway', sans-serif;
+color: #999999;
+font-family: 'Nunito Sans', sans-serif;
+font-weight: 300;
+}
+
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+ footer .row {
+  padding: 20px 0;
+  margin: 0;
+}
+
+.Logo {
+  margin-top: 50px;
+}
+
+
+ .Headline {
+   font-weight: 800;
+   color: #C1987C;
+  }
+
+
+.Vision-detail {
+  padding: 20px 50px;
+}
+.Vision-detail-2 {
+  padding: 0 50px 50px 50px;
+
+}
+
+.Vision-detail-3 {
+  padding: 50px 50px 50px 0;
+
+}
+
+
+
+.background {;
+  padding: 20px 15px 15px 15px;
+  margin: 20px;
+}
+
+.color1 {
+  background-color: #F2D4C2;
+}
+.color2 {
+  background-color: #FFE69D;
+}
+.color3 {
+  background-color: #E6ECB6;
+}
+.color4 {
+  background-color: #def0f0;
+}
+.navbar-light, footer {
+  background-color: #E6ECB6;
+}
+
+/* footer */
+
+footer div div {
+  display: inline-block;
+}
+
+footer div div div {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1rem;
+}
+
+footer div div img {
+  height: 100%;
+}
+
+#icon {
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.icon {
+  margin-right: 1.2rem;
+}
+
+#Facebook {
+  margin-left: 0.8rem;
+}
+
+#impressumText {
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+  font-size: 0.7rem;
+}
