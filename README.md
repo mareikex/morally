@@ -1,3 +1,6 @@
 # morally
  
-Contributor: Gerlyn Bongers
+Contributors: 
+
+Gerlyn Bongers
+Mohammad Mustafa Zaki - 204621
