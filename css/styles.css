@@ -6,16 +6,95 @@ font-family: 'Raleway', sans-serif;
 color: #999999;
 font-family: 'Nunito Sans', sans-serif;
 font-weight: 300;
+font-size: 18px;
 }
-
 .row {
   padding: 0;
   margin: 0;
 }
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+.box {
+  margin-top: 50px;
+  padding: 0 20px;
+}
+.box-2{
+  padding: 50px;
+}
+
+.box-5 {
+  padding-bottom: 50px;
+}
+
+.box-3 {
+  padding-bottom: 50px;
+  padding-top:  50px;
+}
+.box-4 {
+    padding: 0 20px;
+}
+.Headline {
+  font-weight: 800;
+  color: #C1987C;
+ }
+
+ .color1 {
+   background-color: rgba(242, 212, 194,0.5);
+
+ }
+ .color2 {
+   background-color: rgba( 	255, 230, 157,0.5);
+ }
+ .color3 {
+   background-color: rgba(230, 236, 182,0.5);
+ }
+ .color4 {
+   background-color: rgba( 	222, 240, 240,0.5);
+ }
+ .color-white {
+   color: white;
+ }
+ .color-yellow-light {
+   background-color: #FFF6DD;
+ }
+ .center-img {
+   padding: 20px 0px;
+ }
+
+ .box-text {
+   padding: 100px 200px;
+   margin: 20px 0px;
+ }
+
+ .box-text-2 {
+   padding: 50px;
+   margin: 40px 0px;
+ }
+
+ .box-text-3 {
+   padding: 10px 30px;
+ }
+
+ .box-text-4 {
+   padding: 10px 10px 15px 0px;
+ }
+
+ .background {
+   padding: 20px 15px 15px 15px;
+   margin: 20px;
+ }
+
+ .Blocksatz {
+   hyphens: auto;
+ 	text-align: justify
+ }
+
 
 /* nav */
 .border-nav {
-  margin: 10px 0px;
+  margin: 10px 0px 0px 0px;
   border-bottom: solid #c1987c 2px;
 }
 .nav-font-color {
@@ -27,60 +106,20 @@ font-weight: 300;
   font-weight: bold
 }
 
+/* introduction */
 .Logo {
-  margin-top: 50px;
+  margin-top: 20px;
+  width: 30%;
 }
 
- .Headline {
-   font-weight: 800;
-   color: #C1987C;
-  }
-
-.Vision-detail {
-  padding: 20px 50px;
-}
-.Vision-detail-2 {
-  padding: 0 50px 50px 50px;
-}
-.Vision-detail-3 {
-  padding: 50px 50px 50px 0;
-  margin: 40px 0px;
-}
-.background {;
+/* .background {
   padding: 20px 15px 15px 15px;
   margin: 20px;
-}
+} */
 
-.color1 {
-  background-color: #F2D4C2;
-}
-.color2 {
-  background-color: #FFE69D;
-}
-.color3 {
-  background-color: #E6ECB6;
-}
-.color4 {
-  background-color: #def0f0;
-}
-.color-white {
-  color: white;
-}
-.color-yellow-light {
-  background-color: #FFF6DD;
-}
-.center-img {
-  padding: 20px 0px;
-}
+/* index  */
 
-.box-text {
-  padding: 100px;
-  margin: 20px 0px;
-}
-
-.box-text-2 {
-  margin: 40px 0px;
-}
+/* slideshow */
 
 /* footer */
 footer {
@@ -124,4 +163,136 @@ footer .row {
 footer a:hover {
   text-decoration: none;
   color: grey;
+}
+
+/* contact */
+
+#ersteReiheSmartphone {
+  display: none;
+}
+
+#ersteReiheDesktop {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+.TabletQuerieContact {
+  width: 90%;
+}
+
+.Name {
+  background-color: #ffffff;
+  height: 2rem;
+  margin-right: 0.5rem;
+  font-size: 0.8rem;
+  border-radius: 10px;
+  border-style: hidden;
+  border:  #C1987C solid 2px;
+  color:  #C1987C;
+}
+
+.Surname {
+  background-color: #ffffff;
+  height: 2rem;
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+  border-radius: 10px;
+  border-style: hidden;
+  border:  #C1987C solid 2px;
+  color:  #C1987C;
+}
+
+#EMail {
+  background-color: #ffffff;
+  height: 2rem;
+  display: block;
+  order: 2;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  border-radius: 10px;
+  border-style: hidden;
+  border:  #C1987C solid 2px;
+  color:  #C1987C;
+
+}
+
+#Subject {
+  background-color: #ffffff;
+  height: 2rem;
+  display: block;
+  order: 3;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+    border-radius: 10px;
+    border-style: hidden;
+    border:  #C1987C solid 2px;
+    color:  #C1987C;
+
+}
+
+#Message {
+  background-color: #ffffff;
+  height: 10rem;
+  display: block;
+  order: 4;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  border-radius: 10px;
+  border-style: hidden;
+  border:  #C1987C solid 2px;
+  color:  #C1987C;
+}
+
+.submit {
+  color: #C1987C;
+  order: 4;
+  background-color:#FFFFFF;
+  margin-top: 1rem;
+  height: 2.2rem;
+  width: 13rem;
+  border-style: hidden;
+  border:  #C1987C solid 2px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color:  #C1987C;
+}
+
+.submit:hover {
+  background-color:  rgb(242, 212, 194);
+  color: white;
+  border: white;
+}
+
+textarea {
+  resize: none;
+}
+
+#WeisseBoxenFormular {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+#WeisseBoxenFormular input {
+  padding-left: 0.5rem;
+}
+
+#WeisseBoxenFormular textarea {
+  padding-left: 0.5rem;
+}
+
+
+.contact-background {
+  background-image: url("../images/color1-background.jpg");
+  background-size: contain;
+}
+
+.border-headline-3 {
+  border-bottom: solid rgb(242, 212, 194) 2px;
+  padding: 20px;
 }
