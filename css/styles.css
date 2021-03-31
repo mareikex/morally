@@ -317,6 +317,11 @@ textarea {
     padding: 20px;
  }
 
+.border-headline {
+    border-bottom: solid #FFE69D 2px;
+    padding: 20px;
+ }
+
 .float-center {
   margin: 50px;
 }
