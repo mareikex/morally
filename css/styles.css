@@ -296,3 +296,47 @@ textarea {
   border-bottom: solid rgb(242, 212, 194) 2px;
   padding: 20px;
 }
+
+/* about us */
+.box-team {
+  padding: 20px;
+  margin: 20px;
+}
+
+.img-size {
+  padding: 10px;
+}
+
+.border-headline-2 {
+    border-top: solid #FFE69D 2px;
+    /* padding: 20px; */
+ }
+
+.border-headline {
+    border-bottom: solid #FFE69D 2px;
+    padding: 20px;
+ }
+
+.float-center {
+  margin: 50px;
+}
+
+cite {
+  font-size: 12px;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+
+/* Testing */
+
+.border-headline-4 {
+    border-bottom: solid #def0f0 2px;
+    padding: 20px;
+ }
+
+.small-fontsize  {
+  font-size: 12px;
+}
