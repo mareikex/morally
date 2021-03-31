@@ -13,37 +13,39 @@ font-weight: 300;
   margin: 0;
 }
 
- footer .row {
-  padding: 20px 0;
-  margin: 0;
+/* nav */
+.border-nav {
+  margin: 10px 0px;
+  border-bottom: solid #c1987c 2px;
+}
+.nav-font-color {
+  color: #c1987c;
+  font-weight: bold;
+}
+.nav-font-color2 , .nav-link:hover {
+  color: #fee69c;
+  font-weight: bold
 }
 
 .Logo {
   margin-top: 50px;
 }
 
-
  .Headline {
    font-weight: 800;
    color: #C1987C;
   }
-
 
 .Vision-detail {
   padding: 20px 50px;
 }
 .Vision-detail-2 {
   padding: 0 50px 50px 50px;
-
 }
-
 .Vision-detail-3 {
   padding: 50px 50px 50px 0;
-
+  margin: 40px 0px;
 }
-
-
-
 .background {;
   padding: 20px 15px 15px 15px;
   margin: 20px;
@@ -61,45 +63,65 @@ font-weight: 300;
 .color4 {
   background-color: #def0f0;
 }
-.navbar-light, footer {
-  background-color: #E6ECB6;
+.color-white {
+  color: white;
+}
+.color-yellow-light {
+  background-color: #FFF6DD;
+}
+.center-img {
+  padding: 20px 0px;
+}
+
+.box-text {
+  padding: 100px;
+  margin: 20px 0px;
+}
+
+.box-text-2 {
+  margin: 40px 0px;
 }
 
 /* footer */
+footer {
+ background-color: #c1987c;
+}
 
 footer div div {
   display: inline-block;
 }
-
 footer div div div {
   display: inline-block;
   width: 2rem;
   height: 2rem;
   margin-top: 1rem;
 }
-
 footer div div img {
   height: 100%;
 }
-
+footer .row {
+ padding: 20px 0;
+ margin: 0;
+}
 #icon {
   margin-left: 1.5rem;
   margin-bottom: 0.5rem;
   display: inline-block;
 }
-
 .icon {
   margin-right: 1.2rem;
 }
-
 #Facebook {
   margin-left: 0.8rem;
 }
-
 #impressumText {
   display: flex;
   margin-top: 1rem;
   margin-left: 2rem;
   margin-right: 1rem;
   font-size: 0.7rem;
+}
+footer a:hover {
+  text-decoration: none;
+  color: grey;
 }
