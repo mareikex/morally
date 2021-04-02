@@ -35,6 +35,13 @@ font-size: 18px;
 .box-4 {
     padding: 0 20px;
 }
+
+
+/* NEW */
+.box-5 {
+  margin-top: 50px;;
+}
+
 .Headline {
   font-weight: 800;
   color: #C1987C;
@@ -94,8 +101,9 @@ font-size: 18px;
 
 /* nav */
 .border-nav {
-  margin: 10px 0px 0px 0px;
   border-bottom: solid #c1987c 2px;
+  background-color: white;
+  padding: 10px 0 0 0;
 }
 .nav-font-color {
   color: #c1987c;
@@ -353,4 +361,50 @@ cite {
 
 .small-fontsize  {
   font-size: 12px;
+}
+
+/* Index NEW */
+.Insta-Button {
+  color: #C1987C;
+  font-weight: bold;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+/*NAV NEW*/
+.nav-link {
+  padding: 0.3rem 0rem 0.3rem 4rem;
+}
+
+
+
+/* NEW1 Media Queries //Contact Page */
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+   .contact-background {
+     background-image: none;
+     background-color: rgba(242, 212, 194,0.5);
+     }
+     .smartnone {
+       display: none;
+     }
+     .nav-link {
+       padding: 0.3rem 0rem 0.3rem 0rem;
+
+     }
+   }
+
+
+.navbar-brand {
+  font-size: 0rem;
+}
+
+.carousel-control-next-icon {
+  color: black;
 }
