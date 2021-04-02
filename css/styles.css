@@ -292,6 +292,11 @@ textarea {
   background-size: contain;
 }
 
+.border-headline-5 {
+  border-bottom: solid rgb(230, 236, 182) 2px;
+  padding: 20px;
+}
+	
 .border-headline-3 {
   border-bottom: solid rgb(242, 212, 194) 2px;
   padding: 20px;
