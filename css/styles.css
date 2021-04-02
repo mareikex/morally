@@ -386,7 +386,9 @@ cite {
 
 /* NEW1 Media Queries //Contact Page */
 /* // Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) {
+@media (max-width: 576px)
+/* Contact Page */
+    {
    .contact-background {
      background-image: none;
      background-color: rgba(242, 212, 194,0.5);
@@ -394,6 +396,7 @@ cite {
      .smartnone {
        display: none;
      }
+     /*navbar*/
      .nav-link {
        padding: 0.3rem 0rem 0.3rem 0rem;
 
